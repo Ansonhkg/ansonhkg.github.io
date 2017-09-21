@@ -4,18 +4,17 @@
   {% include head.html %}
 
   <body>
-    <nav class="nav">
-      <div class="nav-container">
-        <a href="{{ site.baseurl }}/">
-          <h2 class="nav-title">{{ site.title }}</h2>
-        </a>
-        <ul>
-          <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
-          <li><a href="{{ site.baseurl }}/">Posts</a></li>
-          <li><a href="{{ '/categories' | prepend: site.baseurl }}">Categories</a></li>
-        </ul>
-    </div>
-  </nav>
+
+  <header class="constrain constrain-lg m-t m-b">
+      <a href="{{ site.baseurl }}/">
+        <h2 class="nav-title text-center">{{ site.title }}</h2>
+      </a>
+    <nav class="p-t p-b nav text-center text-uppercase border-t border-b">
+      <a class="m-r inline-block link-muted" href="{{ site.baseurl }}/">Blog</a>
+      <a class="m-r inline-block link-muted" href="{{ '/categories' | prepend: site.baseurl }}">Categories</a>
+      <a class="m-r inline-block link-muted" href="{{ '/about' | prepend: site.baseurl }}">About</a>
+    </nav>
+  </header>
 
     <main>
       {{ content }}

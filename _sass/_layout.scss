@@ -13,8 +13,9 @@ footer,
 }
 
 .nav {
-  box-shadow: 0 2px 2px -2px $shadow-color;
+  // box-shadow: 0 2px 2px -2px $shadow-color;
   overflow: auto;
+  font-size: 1.50rem;
 
   &-container {
     margin: 1rem auto;
@@ -25,10 +26,10 @@ footer,
   &-title {
     @include transition(all .2s ease-out);
     color: $default-color;
-    display: inline-block;
-    margin: 0;
+    // display: inline-block;
+    // margin: 0;
     padding-right: .2rem;
-
+    font-size:4rem;
     &:hover,
     &:focus {
       opacity: .6;
@@ -86,6 +87,6 @@ footer {
 
   span {
     color: $default-color;
-    font-size: .8rem;
+    font-size: .9rem;
   }
 }
