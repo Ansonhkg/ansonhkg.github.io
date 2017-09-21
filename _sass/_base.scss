@@ -69,13 +69,13 @@ blockquote {
 .link-muted {
   color: rgba(51, 51, 51, 0.6);
 }
-ul > li {
-  list-style-type:none;
-}
 .wt-bold {
   font-weight: 700 !important;
 }
 
 .text-lg {
   font-size: 1.35rem !important;
+}
+.nolist{
+  list-style-type: none;
 }
