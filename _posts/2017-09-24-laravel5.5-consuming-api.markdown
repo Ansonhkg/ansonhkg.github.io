@@ -5,11 +5,6 @@ date:   2017-09-24 22:36:00 +0100
 categories: Web-Development
 author: Anson Cheung
 ---
----
-layout: default
-title: Notes
-permalink: /mynotes/
----
 
 # Laravel 5.5
 
