@@ -40,7 +40,7 @@ use GuzzleHttp\Client;
 $client = new Client(); //GuzzleHttp\Client
 $response = $client->get('http://backend.dev/api/user');
 $data = $response->getBody();
-$data = json_decode($data, true);
+$data = (object) json_decode($data, true);
 return $response;
 ```
 
