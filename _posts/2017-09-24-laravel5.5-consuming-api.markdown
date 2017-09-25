@@ -14,6 +14,7 @@ author: Anson Cheung
 $request = Request::create('/api/users/1', 'GET');
 $response = app()->handle($request)->getData();
 ```
+
 ## Call external API 
 Guzzle is an HTTP client built with and for PHP. The cURL software has typically handled all of the HTTP heavy lifting in PHP, or in some cases of quick hacking, the good old file_get_contents() function. Guzzle is a bit more advanced and simple at the same time. The software itself is quite impressive, providing a nice elegant solution to the developer that is easy to use. All the complexity is hidden away in the class implementation.
 
@@ -38,6 +39,8 @@ use GuzzleHttp\Client;
 ``` ruby
 $client = new Client(); //GuzzleHttp\Client
 $response = $client->get('http://backend.dev/api/user');
+$data = $response->getBody();
+$data = json_decode($data, true);
 return $response;
 ```
 
