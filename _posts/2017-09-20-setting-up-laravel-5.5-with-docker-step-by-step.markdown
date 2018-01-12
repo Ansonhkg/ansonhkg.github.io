@@ -52,8 +52,8 @@ And replace it with `mariadb:/var/lib/mysql`
 
 # Hosts File
 1. Open hosts file at `C:\Windows\System32\drivers\etc\hosts`
-2. Add this line `127.0.0.1 backend.dev`
-6. Go to [backend.dev](http://backend.dev){:target="_blank"} on your browser
+2. Add this line `127.0.0.1 backend.local`
+6. Go to [backend.local/](http://backend.local/){:target="_blank"} on your browser
 
 <div id="disqus_thread"></div>
 <script>
