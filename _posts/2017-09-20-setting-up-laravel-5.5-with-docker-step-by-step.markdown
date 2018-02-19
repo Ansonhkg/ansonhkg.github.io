@@ -1,21 +1,24 @@
 ---
 layout: post
-title:  Setting up Laravel 5.5 with Docker Step by Step
+title:  Setting up Laravel 5.6 with Docker Step by Step
 date:   2017-09-20 04:07:59 +0100
 categories: Web-Development
 author: Anson Cheung
 ---
+
+## Updated 2018-02-19
+
 # Prerequisite
 - [Docker](https://www.docker.com/docker-windows)
 - [HeidiSQL](https://www.heidisql.com/download.php)
 
 	
 # Install Laradock
-1. Create a directory called `laravel5-5`
+1. Create a directory called `laravel5-6`
 2. Open command prompt in this directory
 3. Run `git clone https://github.com/Laradock/laradock.git`
 4. Type `cd laradock` to enter laradock folder
-5. Type `copy env-example .env` to create a new copy of env-example and rename it as .env
+5. Type `copy env-example .env` to create a new copy of env-example and rename it as `.env`
 6. Open `.env` in **laradock** folder, change the application path to `APPLICATION=../backend`
 7. Under `PHP_FPM`, enable the following packages:
 ```
@@ -39,7 +42,7 @@ PHP_FPM_INSTALL_IMAGE_OPTIMIZERS=true
 
 And replace it with `mariadb:/var/lib/mysql`
 
-> The reason we are using mariadb instead of mysql is because it allows you to access the database container from your through MYSQL client such as HeidiSQL
+> The reason we are using mariadb instead of mysql is because it allows you to access the database container through MYSQL client. (HeidiSQL, etc.)
 
 # Install Laravel5.5
 1. In laradock folder, run `docker-compose up -d nginx mariadb` to start up containers
