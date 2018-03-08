@@ -38,7 +38,7 @@ new BrowserSyncPlugin({
 - Run `yarn webpack --watch` to start watching file...
 
 # Demos
-- [http://ansoncheung.me/WBP_Clone_Tailwindcss](http://ansoncheung.me/WBP_Clone_Tailwindcss)
+- <a href="http://ansoncheung.me/WBP_Clone_Tailwindcss" target="_blank">Web Best Practice Clone</a>
 
 <div id="disqus_thread"></div>
 <script>
