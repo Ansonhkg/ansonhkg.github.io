@@ -6,7 +6,7 @@ categories: Web-Development
 author: Anson Cheung
 ---
 
-# Ongoing...
+# Ongoing..
 
 # 1) Installation
 - Node.js (https://nodejs.org/en/)
