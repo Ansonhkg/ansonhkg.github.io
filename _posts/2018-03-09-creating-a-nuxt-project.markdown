@@ -13,9 +13,10 @@ author: Anson Cheung
 - `npm install -g create-nuxt-app` (https://github.com/nuxt-community/create-nuxt-app)
 - Now you can run `create-nuxt-app my-first-app` to initialize the project
 
-## Notes
+# Notes
+Some notes I would like to write down so that I can look up later.  Maybe this post is also helpful to you. 
 
-## Pages, Routing & View
+# Pages, Routing & View
 ### Global styling - Fonts
 - https://fonts.google.com
 - Copy the font link, for example `<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">`
@@ -37,6 +38,7 @@ html{
 ```
 
 ### Using Tailwind in Vue Component
+
 ```
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
@@ -71,7 +73,7 @@ a.nuxt-link-active{
 }
 ```
 
-## Handling Data
+# Handling Data
 
 ### Handling Error with Promise (remove callback as second argument)
 ```
