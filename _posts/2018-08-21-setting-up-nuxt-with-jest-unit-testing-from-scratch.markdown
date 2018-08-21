@@ -173,6 +173,25 @@ css: ['~/assets/css/tailwind.css']
 - https://github.com/alidcastano/nuxt-jest-puppeteer
 - https://www.youtube.com/watch?v=vQ4A7EfAHOg
 
+> **Counter.spec.js**
+
+```javascript
+import { mount } from '@vue/test-utils'
+import Counter from './Counter.vue'
+
+describe('Counter.vue', () => {
+    test('Setup correctly', () => {
+        expect(true).toBe(true)
+    })
+    test('increments the counter value when button is clicked', () => {
+        const wrapper = mount(Counter)
+        expect(wrapper.text()).toContain('Counter: 0')
+        
+    })
+})
+```
+
+
 <div id="disqus_thread"></div>
 <script>
 
@@ -193,22 +212,4 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-```
-
-> **Counter.spec.js**
-
-```javascript
-import { mount } from '@vue/test-utils'
-import Counter from './Counter.vue'
-
-describe('Counter.vue', () => {
-    test('Setup correctly', () => {
-        expect(true).toBe(true)
-    })
-    test('increments the counter value when button is clicked', () => {
-        const wrapper = mount(Counter)
-        expect(wrapper.text()).toContain('Counter: 0')
-        
-    })
-})
 ```
