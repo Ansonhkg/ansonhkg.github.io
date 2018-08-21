@@ -9,14 +9,15 @@ author: Anson Cheung
 # Setting up Nuxt with Tailwind CSS
 ![](https://camo.githubusercontent.com/4aa5532ee9baf623c95b901372002dfa4e97ff01/687474703a2f2f696d6775722e636f6d2f56344c746f49492e706e67) ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU37MsS36DmMgNmpJJVzZkRgetfpBNTwG5VkvQkB8GATlV6QY7dw)
 
-1. ##### Adding NPM packages
+##### Adding NPM packages
 `yarn add tailwindcss`
 
-2. ##### Create tailwind configuration file
+##### Create tailwind configuration file
 `./node_modules/.bin/tailwind init tailwind.config`
 
-3. ##### Create a CSS file (~/assets/css/tailwind.css) with the following content
-```css
+##### Create a CSS file (~/assets/css/tailwind.css) with the following content
+
+```
 /**
  * This injects Tailwind's base styles, which is a combination of
  * Normalize.css and some additional base styles.
@@ -80,7 +81,8 @@ author: Anson Cheung
 
 -  `yarn add babel-jest`
 
-4. ##### Create a postcss.config.js in your project root with the following content
+##### Create a postcss.config.js in your project root with the following content
+
 ```javascript
 module.exports = {
   plugins: [
@@ -90,7 +92,7 @@ module.exports = {
 }
 ```
 
-5. ##### Add postcss in build before extend
+##### Add postcss in build before extend
 
 ```javascript
 postcss: [
@@ -99,7 +101,7 @@ postcss: [
    ],
 ```
 
-6. ##### Add CSS after build in nuxt.config.js
+##### Add CSS after build in nuxt.config.js
 
 ```javascript
 css: ['~/assets/css/tailwind.css']
