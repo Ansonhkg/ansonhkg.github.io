@@ -1,4 +1,12 @@
-# Setting up Nuxt with Jest Unit Testing from Scrach
+---
+layout: post
+title:  Setting up Nuxt with Jest Unit Testing from Scratch
+date:   2018-08-21 22:42:00 +0100
+categories: Web-Development
+author: Anson Cheung
+---
+
+# Setting up Nuxt with Jest Unit Testing from Scratch
 ![](https://image.ibb.co/cW8uTK/image.png)
 
 1. ##### Install Nuxt.js starter template or install it with vue-cli
