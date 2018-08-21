@@ -77,10 +77,6 @@ author: Anson Cheung
   */
 ```
 
-- `yarn add vue-jest`
-
--  `yarn add babel-jest`
-
 ##### Create a postcss.config.js in your project root with the following content
 
 ```javascript
