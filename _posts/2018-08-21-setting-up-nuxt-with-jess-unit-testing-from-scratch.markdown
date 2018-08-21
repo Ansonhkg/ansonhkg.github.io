@@ -1,20 +1,15 @@
-2018-08-21-setting-up-nuxt-with-jess-unit-testing-from-scratch.markdown
-
 # Setting up Nuxt with Jest Unit Testing from Scrach
 ![](https://image.ibb.co/cW8uTK/image.png)
 
 1. ##### Install Nuxt.js starter template or install it with vue-cli
-- `vue init nuxt-community/starter-template nuxt-jest`
+`vue init nuxt-community/starter-template nuxt-jest`
 
 2. ##### Enter the directory and install dependencies
-- `cd nuxt-jest`
-
-- `yarn add jest`
+`cd nuxt-jest`
+`yarn add jest`
 
 3. ##### Jest would try to run vue component inside JavaScript, but the component isn't a valid JavaScript. So when Jest runs it, it will encounter the "<" token syntax error. We need to transform our component before Jest runs it. To do that, we will need to install:
-
 - `yarn add vue-jest`
-
 -  `yarn add babel-jest`
 
 4. ##### And add the following to your package.json
