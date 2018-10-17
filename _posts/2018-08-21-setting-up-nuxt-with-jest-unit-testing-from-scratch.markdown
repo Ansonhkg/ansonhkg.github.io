@@ -60,16 +60,9 @@ export default {
     }
 }
 </script>
+```
 
 
-
----
-layout: post
-title:  Setting up Nuxt with Tailwind CSS
-date:   2018-08-21 22:50:00 +0100
-categories: Web-Development
-author: Anson Cheung
----
 
 # Setting up Nuxt with Tailwind CSS
 ![](https://camo.githubusercontent.com/4aa5532ee9baf623c95b901372002dfa4e97ff01/687474703a2f2f696d6775722e636f6d2f56344c746f49492e706e67) ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU37MsS36DmMgNmpJJVzZkRgetfpBNTwG5VkvQkB8GATlV6QY7dw)
