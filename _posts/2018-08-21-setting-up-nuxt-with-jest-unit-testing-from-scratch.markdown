@@ -19,6 +19,7 @@ author: Anson Cheung
 3. ##### Jest would try to run vue component inside JavaScript, but the component isn't a valid JavaScript. So when Jest runs it, it will encounter the "<" token syntax error. We need to transform our component before Jest runs it. To do that, we will need to install:
 - `yarn add vue-jest`
 -  `yarn add babel-jest`
+- `yarn add babel-preset-env`
 
 4. ##### And add the following to your package.json
 ```json
@@ -31,8 +32,8 @@ author: Anson Cheung
 ```json
 "jest": {
   "transform": {
-    "^.+\\.js$": "babel-jest",
-    "^.+\\.vue$": "vue-jest"
+    "^.+\\.vue$": "vue-jest",
+    "^.+\\.js$": "babel-jest"
   }
 }
 ```
