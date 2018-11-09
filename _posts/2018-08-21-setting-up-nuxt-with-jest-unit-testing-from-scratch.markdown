@@ -20,12 +20,14 @@ author: Anson Cheung
 - `yarn add vue-jest`
 -  `yarn add babel-jest`
 - `yarn add babel-preset-env`
+- `yarn add @babel/core`
+- `yarn add @babel/preset-env`
 
 4. ##### And add the following to your package.json
 ```json
 "babel": {
   "presets": [
-    "env"
+    "@babel/preset-env
   ]
 },
 ```
