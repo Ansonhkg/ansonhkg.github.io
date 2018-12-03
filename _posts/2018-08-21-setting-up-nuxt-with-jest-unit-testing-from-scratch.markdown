@@ -16,6 +16,8 @@ author: Anson Cheung
 `cd nuxt-jest`
 `yarn add jest`
 
+> Shortcut: yarn add jest babel-core@npm:@babel/core babel-jest babel-preset-env @babel/preset-env @vue/test-utils
+
 3. ##### Jest would try to run vue component inside JavaScript, but the component isn't a valid JavaScript. So when Jest runs it, it will encounter the "<" token syntax error. We need to transform our component before Jest runs it. To do that, we will need to install:
 
 - `yarn add jest`
@@ -40,13 +42,19 @@ author: Anson Cheung
   }
 ```
 
-5. ##### Finally, let's install vue/test-utils. It's a unit testing utility library that makes testing easier. The main method that it exports is the { mount } method, which takes a component and mounts it, and returns a wrapper than contains the mounter component instance as well as helper methods to assert and render against the component render tree.
+5. ##### Let's install vue/test-utils. It's a unit testing utility library that makes testing easier. The main method that it exports is the { mount } method, which takes a component and mounts it, and returns a wrapper than contains the mounter component instance as well as helper methods to assert and render against the component render tree.
 
 - `yarn add @vue/test-utils`
 
+6. #### Create a shortcut to run `yarn jest --watch` command. At "scripts" object, add the following:
+
+```json
+    "unit": "jest --watch"
+```
+
 > **Counter.vue**
 
-```javascript
+```
 <template>
     <div>
         <div>Counter: {{ counter }}</div>
