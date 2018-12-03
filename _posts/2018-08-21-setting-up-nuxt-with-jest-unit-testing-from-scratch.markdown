@@ -17,27 +17,27 @@ author: Anson Cheung
 `yarn add jest`
 
 3. ##### Jest would try to run vue component inside JavaScript, but the component isn't a valid JavaScript. So when Jest runs it, it will encounter the "<" token syntax error. We need to transform our component before Jest runs it. To do that, we will need to install:
-- `yarn add vue-jest`
--  `yarn add babel-jest`
+
+- `yarn add jest`
+
+- `yarn add babel-core@npm:@babel/core`
+- `yarn add babel-jest`
 - `yarn add babel-preset-env`
-- `yarn add @babel/core`
 - `yarn add @babel/preset-env`
 
 4. ##### And add the following to your package.json
 ```json
 "babel": {
-  "presets": [
-    "@babel/preset-env
-  ]
-},
-```
-```json
-"jest": {
-  "transform": {
-    "^.+\\.vue$": "vue-jest",
-    "^.+\\.js$": "babel-jest"
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "jest": {
+    "transform": {
+      "^.+.vue$": "vue-jest",
+      "^.+.js$": "babel-jest"
+    }
   }
-}
 ```
 
 5. ##### Finally, let's install vue/test-utils. It's a unit testing utility library that makes testing easier. The main method that it exports is the { mount } method, which takes a component and mounts it, and returns a wrapper than contains the mounter component instance as well as helper methods to assert and render against the component render tree.
