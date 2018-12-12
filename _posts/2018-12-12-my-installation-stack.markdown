@@ -15,6 +15,7 @@ author: Anson Cheung
 - [ ] Visual Studio Code
 - [ ] EmEditor
 - [ ] Homestead
+- [ ] Must have visualization
 
 <div id="disqus_thread"></div>
 <script>
