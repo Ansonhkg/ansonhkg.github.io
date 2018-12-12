@@ -7,14 +7,14 @@ author: Anson Cheung
 ---
 
 # My installtion stack
-- [] Choco
-- [] Node
-- [] Yarn
-- [] Vagrant
-- [] VirtualBox
-- [] Visual Studio Code
-- [] EmEditor
-- [] Homestead
+- [ ] Choco
+- [ ] Node
+- [ ] Yarn
+- [ ] Vagrant
+- [ ] VirtualBox
+- [ ] Visual Studio Code
+- [ ] EmEditor
+- [ ] Homestead
 
 <div id="disqus_thread"></div>
 <script>
