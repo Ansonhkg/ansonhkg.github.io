@@ -1,21 +1,22 @@
 ---
 layout: post
-title:  My Installation Stack
-date:   2018-12-12 21:50:00 +0100
+title:  My Current Development Stack
+date:   2019-05-24 21:50:00 +0100
 categories: Web-Development
 author: Anson Cheung
 ---
 
-# My installtion stack
-- [ ] Choco
-- [ ] Node
-- [ ] Yarn
-- [ ] Vagrant
-- [ ] VirtualBox
-- [ ] Visual Studio Code
-- [ ] EmEditor
-- [ ] Homestead
-- [ ] Must have visualization
+# My Current Development Stack
+- Vue.js (Nuxt framework)
+- ExpressJS (API Server that connects to multiple data sources)
+- Microsoft SQL Server 2017 (A legacy server that stores 100+ millions worth of data but performs very slow search due to high search request). 
+- Docker (Hosting the following) 
+  - Elasticsearch (3 Master nodes, 2 Client nodes, 2 Data Nodes indexing 12 companies, indexing 100+ millions documents)
+  - Redis Service (Cache calculated Elasticsearch result)
+  - Logstash (Run queries from SQL Server and send it to Elasticsearch)
+  - Kibana
+
+- Microsoft Azure VM
 
 <div id="disqus_thread"></div>
 <script>
