@@ -82,6 +82,14 @@ Click on the link and you shall see this page.
 
 That's it.
 
+<style>
+img {
+  vertical-align: middle;
+  box-shadow: 0px 0px 11px #949393;
+  border-radius:5px;
+}
+</style>
+
 
 <div id="disqus_thread"></div>
 
