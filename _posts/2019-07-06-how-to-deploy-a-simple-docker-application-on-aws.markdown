@@ -8,6 +8,13 @@ author: Anson Cheung
 
 # How to deploy a simple docker application to AWS (2019)
 
+- [How to deploy a simple docker application to AWS (2019)](#How-to-deploy-a-simple-docker-application-to-AWS-2019)
+- [Prerequisite](#Prerequisite)
+- [Creating a cluster](#Creating-a-cluster)
+- [Creating a Task Definition](#Creating-a-Task-Definition)
+- [Run the task](#Run-the-task)
+- [Bravo! That's it.](#Bravo-Thats-it)
+
 ---
 
 # Prerequisite
@@ -20,7 +27,7 @@ author: Anson Cheung
 
 ---
 
-# Here we go..
+# Creating a cluster
 
 At the top, click **Services > ECS** or search **ECS**
 
@@ -56,6 +63,10 @@ If you go to the **ECS Instances tab**, you should see an instance there now.
 
 However, the instance is empty right. We want to load our image into it. First, we will need to create a **Task Definition**.
 
+# Creating a Task Definition
+
+---
+
 Select **Task Definition** on the left side, click **Create new Task Definition**. and click **EC2**.
 
 ![](https://gyazo.com/bb7d6ba308e354d0a91407d3a1a96d43.gif)
@@ -69,6 +80,10 @@ Here is my task and container definitions
   - Memory Limits: Hard Limit 128
   - Port mappings: 80:80
 ![](https://gyazo.com/4da49cddc8738349d0ca40b820d81845.gif)
+
+# Run the task
+
+---
 
 Now go back to **Cluster**, go on **Tasks** tab and select **Run new Task**.
 
@@ -88,7 +103,7 @@ Click on the link and you shall see this page.
 
 ![](https://gyazo.com/d69219127dd06c8db7f8fd8e66b7e91c.gif)
 
-# That's it
+# Bravo! That's it.
 
 <style>
 img {
