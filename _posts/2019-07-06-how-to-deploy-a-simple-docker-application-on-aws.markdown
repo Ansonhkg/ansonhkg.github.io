@@ -65,6 +65,7 @@ Here is my task and container definitions
 ![](https://gyazo.com/4da49cddc8738349d0ca40b820d81845.gif)
 
 Now go back to **Cluster**, go on **Tasks** tab and select **Run new Task**.
+
 ![](https://gyazo.com/c31365f85f2b8cdd35e9b012ebb4a3c3.png)
 
 Here are my options:
@@ -78,9 +79,10 @@ then click **Run Task**.
 If you go to **Tasks** tab now, you will see your task is running, and if you click in it, you would find your container External Link there.
 
 Click on the link and you shall see this page.
+
 ![](https://gyazo.com/d69219127dd06c8db7f8fd8e66b7e91c.gif)
 
-That's it.
+# That's it
 
 <style>
 img {
