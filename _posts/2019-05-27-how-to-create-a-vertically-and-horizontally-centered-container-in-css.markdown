@@ -44,14 +44,6 @@ CSS
 
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-3447513048440895",
-          enable_page_level_ads: true
-     });
-</script>
-
 <div id="disqus_thread"></div>
 <script>
 
