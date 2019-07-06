@@ -89,6 +89,7 @@ img {
   vertical-align: middle;
   box-shadow: 0px 0px 11px #949393;
   border-radius:5px;
+  border: 1px solid #a9c9e7;
 }
 </style>
 
