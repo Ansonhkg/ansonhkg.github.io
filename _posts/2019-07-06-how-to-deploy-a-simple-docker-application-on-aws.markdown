@@ -8,13 +8,19 @@ author: Anson Cheung
 
 # How to deploy a simple docker application to AWS (2019)
 
+---
+
 # Prerequisite
 - An AWS account
 - Prepare your docker image. In this example I will be using `wordpress:5.2.2-php7.1-apache`
 
-## Note: This is just for demo purposes. All the steps below will be using the default settings and lowest cost posibile. You should at least change your security settings for production.
+---
 
-# Step 1 Creating a Cluster
+> Note: This is just for demo purposes. All the steps below will be using the default settings and lowest cost posibile. You should at least change your security settings for production.
+
+---
+
+# Here we go..
 
 At the top, click **Services > ECS** or search **ECS**
 
