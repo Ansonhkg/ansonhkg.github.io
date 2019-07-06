@@ -1,48 +1,21 @@
 ---
 layout: post
-title:  How to create a vertically and horizontally centered container in CSS
-date:   2019-05-27 00:00:00 +0100
-categories: Web-Development Snippet
+title:  How to deploy a simple AWS application on AWS
+date:   2019-07-06 00:00:00 +0100
+categories: Web-Development DevOps
 author: Anson Cheung
 ---
 
-## Tailwind.css
-```html
-<div class="flex justify-center items-center">
-    <div class="m-auto">
-        {{ text }}
-    </div>
-</div>
-```
-## Vanilla CSS
+# How to deploy a simple docker application to AWS (2019)
 
-HTML
-```html
-<div class="wrapper">
-    <div class="content">
-        {{ text }}
-    </div>
-</div>
-```
+# Prerequisite
+- An AWS account
+- Prepare your docker image. In this example I will be using `wordpress:5.2.2-php7.1-apache`
 
-CSS
-```css
-.wrapper{
-  /* You can change your style and height */
-  background-color:white;
-  height:500px;
-  
-  /* But the structure has to be like this */
-  display: flex;
-  justify-content:center;
-  align-items: center;
-}
+# Step 1 Creating a Cluster
+![](https://gyazo.com/f34983033099847083fc02dfce3ca522)
 
-.content{
-  margin:auto;
-}
 
-```
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
@@ -53,6 +26,7 @@ CSS
 </script>
 
 <div id="disqus_thread"></div>
+
 <script>
 
 /**
@@ -61,7 +35,7 @@ CSS
 /*
 var disqus_config = function () {
 this.page.url = window.location.href;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = 'how-to-create-a-vertically-and-horizontally-centered-container-in-css'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+this.page.identifier = 'how-to-deploy-a-simple-docker-application-on-aws'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 */
 (function() { // DON'T EDIT BELOW THIS LINE
