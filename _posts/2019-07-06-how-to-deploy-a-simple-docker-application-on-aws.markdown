@@ -27,13 +27,9 @@ author: Anson Cheung
 
 ---
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-3447513048440895",
-          enable_page_level_ads: true
-     });
-</script>
+<amp-auto-ads type="adsense"
+              data-ad-client="ca-pub-3447513048440895">
+</amp-auto-ads>
 
 # Creating a cluster
 
