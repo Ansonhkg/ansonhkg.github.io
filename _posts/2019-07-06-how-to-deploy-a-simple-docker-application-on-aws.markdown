@@ -8,12 +8,12 @@ author: Anson Cheung
 
 # How to deploy a simple docker application to AWS (2019)
 
-- [How to deploy a simple docker application to AWS (2019)](#How-to-deploy-a-simple-docker-application-to-AWS-2019)
-- [Prerequisite](#Prerequisite)
-- [Creating a cluster](#Creating-a-cluster)
-- [Creating a Task Definition](#Creating-a-Task-Definition)
-- [Run the task](#Run-the-task)
-- [Bravo! That's it.](#Bravo-Thats-it)
+- [How to deploy a simple docker application to AWS (2019)](#how-to-deploy-a-simple-docker-application-to-aws-2019)
+- [Prerequisite](#prerequisite)
+- [Creating a cluster](#creating-a-cluster)
+- [Creating a Task Definition](#creating-a-task-definition)
+- [Run the task](#run-the-task)
+- [Bravo! That's it.](#bravo-thats-it)
 
 ---
 
@@ -26,6 +26,14 @@ author: Anson Cheung
 > Note: This is just for demo purposes. All the steps below will be using the default settings and lowest cost posibile. You should at least change your security settings for production.
 
 ---
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-3447513048440895",
+          enable_page_level_ads: true
+     });
+</script>
 
 # Creating a cluster
 
