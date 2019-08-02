@@ -32,6 +32,18 @@ console.log(requestOriginAddr + ' is ' + (isLicensed ? 'licensed' : 'NOT license
 
 ```
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Pages -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3447513048440895"
+     data-ad-slot="9229199209"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <iframe src="https://codesandbox.io/embed/trusting-star-gx61j?expanddevtools=1&fontsize=14&module=%2Fsrc%2Flicense.js" title="trusting-star-gx61j" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 <div id="disqus_thread"></div>

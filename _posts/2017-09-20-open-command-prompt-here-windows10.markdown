@@ -5,6 +5,19 @@ date:   2017-09-20 21:04:00 +0100
 categories: Workflow
 author: Anson Cheung
 ---
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Pages -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3447513048440895"
+     data-ad-slot="9229199209"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 # Quick Breif
 - For decades, we were able to right click on a folder (or the background of a folder) to get the "Open Command Prompt" here option. However, you can no longer do that after the Windows 10 Creators Update. 
 

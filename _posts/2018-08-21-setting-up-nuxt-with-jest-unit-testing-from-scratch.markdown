@@ -6,6 +6,18 @@ categories: Web-Development
 author: Anson Cheung
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Pages -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3447513048440895"
+     data-ad-slot="9229199209"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 # Setting up Nuxt with Jest Unit Testing from Scratch
 ![](https://image.ibb.co/cW8uTK/image.png)
 

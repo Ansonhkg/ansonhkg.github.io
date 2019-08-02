@@ -6,6 +6,18 @@ categories: Web-Development
 author: Anson Cheung
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Pages -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3447513048440895"
+     data-ad-slot="9229199209"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 # Setting up Nuxt with Tailwind CSS
 ![](https://camo.githubusercontent.com/4aa5532ee9baf623c95b901372002dfa4e97ff01/687474703a2f2f696d6775722e636f6d2f56344c746f49492e706e67) ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU37MsS36DmMgNmpJJVzZkRgetfpBNTwG5VkvQkB8GATlV6QY7dw)
 
