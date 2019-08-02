@@ -27,10 +27,6 @@ author: Anson Cheung
 
 ---
 
-<amp-auto-ads type="adsense"
-              data-ad-client="ca-pub-3447513048440895">
-</amp-auto-ads>
-
 # Creating a cluster
 
 At the top, click **Services > ECS** or search **ECS**
