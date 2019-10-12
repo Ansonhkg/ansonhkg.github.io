@@ -123,6 +123,18 @@ if (GlobalVue) {
 export default component; 
 ```
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Pages -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3447513048440895"
+     data-ad-slot="9229199209"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## ./build/rollup.config.js
 
 Minimum setup for Rollup configuration.
@@ -202,21 +214,6 @@ yarn version --patch && yarn publish
 ```
 
 > If you don't have a NPM package account, you will need to [sign one up](https://www.npmjs.com/signup). Once you have signed up, you can use the `npm adduser` command to login from the terminal.
-
-
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Pages -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3447513048440895"
-     data-ad-slot="9229199209"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 
 <div id="disqus_thread"></div>
 
