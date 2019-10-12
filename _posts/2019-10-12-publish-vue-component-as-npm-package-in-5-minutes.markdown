@@ -231,6 +231,7 @@ pre {
     padding: 1rem;
     box-shadow: 0px 0px 11px #d6d1d1;
     text-shadow: 1px 1px 0px white;
+    color: #383535;
 }
 </style>
 <div id="disqus_thread"></div>
