@@ -215,6 +215,24 @@ yarn version --patch && yarn publish
 
 > If you don't have a NPM package account, you will need to [sign one up](https://www.npmjs.com/signup). Once you have signed up, you can use the `npm adduser` command to login from the terminal.
 
+<style>
+pre {
+    background-color: #1c2022;
+    color: white;
+    padding: 10px;
+    border-radius: 0.50rem;
+    text-shadow: 0px 0px 1px black;
+}
+.highlight > pre {
+    background-color: #f3f3f3;
+    border-radius: 3px;
+    line-height: 1.4;
+    margin: 0 0 1rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 11px #d6d1d1;
+    text-shadow: 1px 1px 0px white;
+}
+</style>
 <div id="disqus_thread"></div>
 
 <script>
