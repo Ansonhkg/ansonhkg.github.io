@@ -63,7 +63,7 @@ Open `nuxt.config.js`, and add the following.
 
 ```javascript
 export default {
-  buildDir: "public"
+  buildDir: "/public"
 };
 ```
 
