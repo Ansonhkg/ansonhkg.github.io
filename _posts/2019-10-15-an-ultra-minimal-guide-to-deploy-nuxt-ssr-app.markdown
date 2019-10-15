@@ -18,6 +18,7 @@ This short tutorial will be using [Zeit Now](https://zeit.co) to deploy Nuxt SSR
   - [Login via terminal](#login-via-terminal)
   - [Create Nuxt App](#create-nuxt-app)
   - [Change build directory (IMPORTANT)](#change-build-directory-important)
+  - [Edit .ignore](#edit-ignore)
   - [Build](#build)
 - [Finally, deploy.](#finally-deploy)
 -
@@ -63,9 +64,13 @@ Open `nuxt.config.js`, and add the following.
 
 ```javascript
 export default {
-  buildDir: "/public"
+  generate: {
+    dir: "public"
+  }
 };
 ```
+
+## Edit .ignore
 
 ## Build
 
