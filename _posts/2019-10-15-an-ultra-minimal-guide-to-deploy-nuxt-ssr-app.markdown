@@ -19,7 +19,7 @@ This short tutorial will be using [Zeit Now](https://zeit.co) to deploy Nuxt SSR
   - [Create Nuxt App](#create-nuxt-app)
   - [Change build directory (IMPORTANT)](#change-build-directory-important)
   - [Build](#build)
-  - [Finally, deploy.](#finally-deploy)
+- [Finally, deploy.](#finally-deploy)
 -
 
 # Expected Usage
@@ -91,15 +91,18 @@ yarn build
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-## Finally, deploy.
+# Finally, deploy.
 
 Run
 
 ```
 now
+
+## for future deployment run
+now --prod
 ```
 
-That's it.
+enjoy.
 
 <div id="disqus_thread"></div>
 
