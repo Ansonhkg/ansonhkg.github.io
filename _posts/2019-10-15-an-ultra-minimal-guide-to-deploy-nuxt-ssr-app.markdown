@@ -20,7 +20,6 @@ This short tutorial will be using [Zeit Now](https://zeit.co) to deploy Nuxt SSR
   - [Change build directory (IMPORTANT)](#change-build-directory-important)
   - [Generate](#generate)
 - [Finally, deploy.](#finally-deploy)
--
 
 # Expected Usage
 
