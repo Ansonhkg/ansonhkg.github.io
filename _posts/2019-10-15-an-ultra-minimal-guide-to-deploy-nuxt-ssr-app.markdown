@@ -54,7 +54,7 @@ now login
 ## Create Nuxt App
 
 ```
-yarn create nuxt-app <your project>
+npx create-nuxt-app my-app
 ```
 
 ## Change build directory (IMPORTANT)
