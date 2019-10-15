@@ -18,8 +18,7 @@ This short tutorial will be using [Zeit Now](https://zeit.co) to deploy Nuxt SSR
   - [Login via terminal](#login-via-terminal)
   - [Create Nuxt App](#create-nuxt-app)
   - [Change build directory (IMPORTANT)](#change-build-directory-important)
-  - [Edit .ignore](#edit-ignore)
-  - [Build](#build)
+  - [Generate](#generate)
 - [Finally, deploy.](#finally-deploy)
 -
 
@@ -31,7 +30,9 @@ In your Nuxt project folder, run
 now
 ```
 
-Yes, that's it.
+It will deploy to Zeit Now server and generate a link for you.
+
+Repo: https://github.com/Ansonhkg/vue-ssr-deploy-sample
 
 # Steps
 
@@ -43,7 +44,6 @@ https://zeit.co/signup
 
 ```
 npm i -g now
-
 ```
 
 ## Login via terminal
@@ -70,17 +70,17 @@ export default {
 };
 ```
 
-## Edit .ignore
+## Generate
 
-## Build
+> When launching `nuxt generate` or calling `nuxt.generate()`, Nuxt.js will use the configuration defined in the `generate` property.
 
-Right now when you build the application, it should create a directory called `public` in your project directory.
+Run the following command, t should create a directory called `public` in your project directory.
 
 ```
 yarn generate
 ```
 
-> Check if `public` directory is indeed generated. If not, there's something wrong.
+Check if `public` directory is indeed generated. If not, there's something wrong.
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Pages -->
@@ -106,8 +106,6 @@ now
 ## for future deployment run
 now --prod
 ```
-
-enjoy.
 
 <div id="disqus_thread"></div>
 
