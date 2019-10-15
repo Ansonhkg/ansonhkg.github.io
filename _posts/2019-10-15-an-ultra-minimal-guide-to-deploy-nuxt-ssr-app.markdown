@@ -77,7 +77,7 @@ export default {
 Right now when you build the application, it should create a directory called `public` in your project directory.
 
 ```
-yarn build
+yarn generate
 ```
 
 > Check if `public` directory is indeed generated. If not, there's something wrong.
