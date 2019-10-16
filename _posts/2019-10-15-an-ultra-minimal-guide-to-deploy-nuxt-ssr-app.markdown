@@ -17,6 +17,8 @@ This short tutorial will be using [Zeit Now](https://zeit.co) to deploy Nuxt SSR
   - [Install Zeit Now](#install-zeit-now)
   - [Login via terminal](#login-via-terminal)
   - [Create Nuxt App](#create-nuxt-app)
+  - [Add Now Builder for Nuxt.js](#add-now-builder-for-nuxtjs)
+  - [Make sure `Now` have the compatible Node.js version (IMPORTANT)](#make-sure-now-have-the-compatible-nodejs-version-important)
   - [Change build directory (IMPORTANT)](#change-build-directory-important)
   - [Generate](#generate)
 - [Finally, deploy.](#finally-deploy)
@@ -26,12 +28,17 @@ This short tutorial will be using [Zeit Now](https://zeit.co) to deploy Nuxt SSR
 In your Nuxt project folder, run
 
 ```
+yarn generate
+```
+
+Then...
+```
 now
 ```
 
 It will deploy to Zeit Now server and generate a link for you.
 
-Repo: https://github.com/Ansonhkg/vue-ssr-deploy-sample
+Repo: [github.com/Ansonhkg/vue-ssr-deploy-sample](https://github.com/Ansonhkg/vue-ssr-deploy-sample)
 
 # Steps
 
@@ -57,6 +64,35 @@ now login
 npx create-nuxt-app my-app
 ```
 
+## Add Now Builder for Nuxt.js
+
+In your root directory, add a file called `now.json`
+
+```javascript
+{
+    "version": 2,
+    "builds":[
+        {
+            "src": "nuxt.config.js",
+            "use": "@nuxtjs/now-builder"
+        }
+    ]
+}
+```
+
+> This Now builder takes a Nuxt.js application defined by a nuxt.config entrypoint and deploys it to a Now v2 serverless environment.
+> It features built-in caching of node_modules and the yarn global cache (even with dependency changes!) and multi-stage build for fast and small deployments.
+> Reference: [nuxt/now-builder](https://github.com/nuxt/now-builder)
+
+## Make sure `Now` have the compatible Node.js version (IMPORTANT)
+
+Open `package.json` and add the following:
+
+```js
+  "engines": {
+    "node": "10.x"
+  }
+```
 ## Change build directory (IMPORTANT)
 
 Open `nuxt.config.js`, and add the following.
